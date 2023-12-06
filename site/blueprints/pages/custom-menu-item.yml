@@ -1,0 +1,40 @@
+#===============================================================================
+# Page: Custom Menu Item
+#
+# Used to include custom links in the navigation menus.
+#===============================================================================
+
+title:
+  en: Custom Menu Item
+  de: Individueller Menüpunkt
+
+tabs:
+  # Content tab
+  content:
+    label:
+      en: Menu Item Details
+      de: Menüpunktdetails
+    icon: menu
+    columns:
+      # Details for menu item
+      menuItem:
+        width: 1/2
+        fields:
+          menuItemLink:
+            label:
+              en: "Link"
+              de: "Link"
+            type: link
+            required: true
+            help:
+              en: This link will be used for the menu item instead of the normal page URL.
+              de: Dieser Link wird für das Menüelement verwendet, anstatt der normalen Seiten-URL.
+          menuItemTarget: fields/link-target
+      # Include in menus
+      menus:
+        width: 1/2
+        fields:
+          includeInMenus: fields/include-in-menus
+
+  # Sub pages tab
+  subPages: tabs/sub-pages

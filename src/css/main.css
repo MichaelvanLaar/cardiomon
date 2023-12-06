@@ -1,0 +1,233 @@
+/**
+ * =============================================================================
+ * Main stylesheet using Tailwind CSS
+ *
+ * Use build process (see npm script in package.json) to create the final CSS
+ * file which uses ony the classes that are actually used in the PHP templates.
+ * =============================================================================
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Webfonts are included in the `header.php` snippet. */
+
+@layer base {
+  /**
+   * ---------------------------------------------------------------------------
+   * Scrollbar visibility
+   * ---------------------------------------------------------------------------
+   */
+
+  /* Always display the vertical scrollbar
+     This prevents unwanted horizontal layout shifts when loading a page with
+     very short content after a page with long content. */
+
+  html {
+    @apply overflow-y-scroll;
+  }
+
+  /**
+   * ---------------------------------------------------------------------------
+   * Fluid font size and zoom effect
+   * ---------------------------------------------------------------------------
+   */
+
+  html {
+    /* Implement a fluid font size based on viewport width with a minimum size
+       of 16px and a maximum of 22px. This also affects all relative size
+       specifications which are directly or indirectly based on the base font
+       size. The result is a zoom effect of the whole layout. */
+    font-size: clamp(1rem, calc(0.86rem + 0.55vw), 1.38rem);
+  }
+
+  /**
+   * ---------------------------------------------------------------------------
+   * Default font settings
+   * ---------------------------------------------------------------------------
+   */
+
+  html {
+    @apply font-primary;
+  }
+
+  /**
+   * ---------------------------------------------------------------------------
+   * Global link hover effect
+   * ---------------------------------------------------------------------------
+   */
+
+  a {
+    @apply hover:brightness-125 hover:transition-all;
+  }
+}
+
+@layer components {
+  /**
+   * ---------------------------------------------------------------------------
+   * Site logo
+   * ---------------------------------------------------------------------------
+   */
+
+  /* Hack to prevent SVG images from unwanted cropping */
+  .site-logo-container svg {
+    @apply h-[calc(var(--site-logo-height)_+_0.125rem)] w-[calc(var(--site-logo-height)_*_var(--site-logo-aspect-ratio))] print:h-[calc(var(--site-logo-initial-height)_+_0.125rem)] print:w-[calc(var(--site-logo-initial-height)_*_var(--site-logo-aspect-ratio))];
+  }
+
+  /**
+   * ---------------------------------------------------------------------------
+   * Main menu (mobile)
+   * ---------------------------------------------------------------------------
+   */
+
+  /* Show the mobile menu */
+  :is(#main-menu-state:checked, #main-menu-state:target) ~ nav ul {
+    @apply visible opacity-100;
+  }
+
+  /* Hide screen reader links from normal browsers
+     (This part can’t be done using Tailwind CSS.) */
+  :is(.main-menu-open, .main-menu-close) span {
+    clip-path: inset(100%);
+  }
+
+  /* When the mobile menu is open, show the close link for screen readers */
+  :is(#main-menu-state:checked, #main-menu-state:target)
+    ~ nav
+    .main-menu-close {
+    @apply block;
+  }
+
+  /* When the mobile menu is open, hide the open link from screen readers */
+  :is(#main-menu-state:checked, #main-menu-state:target) ~ nav .main-menu-open {
+    @apply hidden;
+  }
+
+  /* Menu toggle icon animation */
+  :is(#main-menu-state:checked, #main-menu-state:target)
+    ~ nav
+    .nav-toggle-icon
+    span:nth-child(1),
+  :is(#main-menu-state:checked, #main-menu-state:target)
+    ~ nav
+    .nav-toggle-icon
+    span:nth-child(4) {
+    @apply left-1/2 top-[calc(50%_-_(0.375rem_/_2))] w-0;
+  }
+  :is(#main-menu-state:checked, #main-menu-state:target)
+    ~ nav
+    .nav-toggle-icon
+    span:nth-child(2) {
+    @apply rotate-45;
+  }
+  :is(#main-menu-state:checked, #main-menu-state:target)
+    ~ nav
+    .nav-toggle-icon
+    span:nth-child(3) {
+    @apply -rotate-45;
+  }
+
+  /**
+   * ---------------------------------------------------------------------------
+   * Print view
+   * ---------------------------------------------------------------------------
+   */
+
+  /* Element which is only displayed when a page is printed */
+  .print-only {
+    @apply screen:invisible screen:hidden;
+  }
+
+  /* Box for link URL footnotes in print view of a page */
+  .print-links-footer {
+    @apply prose prose-sm prose-black clear-both mt-large max-w-none break-inside-avoid-page border border-solid border-black px-medium prose-h3:mt-medium;
+  }
+
+  /* Ordered list in with link URL footnotes in print view of a page */
+  .print-links-footer-list {
+    @apply mb-medium list-decimal;
+  }
+}
+
+/**
+ * -----------------------------------------------------------------------------
+ * Row container
+ * -----------------------------------------------------------------------------
+ */
+
+/* Centered container with a width of 6xl (see Tailwind CSS documentation for
+    details) */
+.row-container,
+.row-container-default {
+  @apply mx-auto w-full max-w-6xl px-medium print:px-0 lg:px-large;
+}
+
+/* Full width container */
+.row-container-full {
+  @apply w-full px-medium print:px-0 lg:px-large;
+}
+
+/**
+ * -----------------------------------------------------------------------------
+ * Helper classes
+ * -----------------------------------------------------------------------------
+ */
+
+/* Centered text of block elements in a layout row or grid layout row */
+[data-page-builder-element-type="layout-row"].row-text-center
+  > div
+  > div
+  > div
+  > p,
+[data-page-builder-element-type="layout-row"].row-text-center
+  > div
+  > div
+  > div
+  > h1,
+[data-page-builder-element-type="layout-row"].row-text-center
+  > div
+  > div
+  > div
+  > h2,
+[data-page-builder-element-type="layout-row"].row-text-center
+  > div
+  > div
+  > div
+  > h3,
+[data-page-builder-element-type="layout-row"].row-text-center
+  > div
+  > div
+  > div
+  > h4,
+[data-page-builder-element-type="layout-row"].row-text-center
+  > div
+  > div
+  > div
+  > h5,
+[data-page-builder-element-type="layout-row"].row-text-center
+  > div
+  > div
+  > div
+  > h6,
+[data-page-builder-element-type="layout-row"].row-text-center
+  > div
+  > div
+  > div
+  > ul,
+[data-page-builder-element-type="layout-row"].row-text-center
+  > div
+  > div
+  > div
+  > ol,
+[data-page-builder-element-type="grid-row"].row-text-center > div > div > p,
+[data-page-builder-element-type="grid-row"].row-text-center > div > div > h1,
+[data-page-builder-element-type="grid-row"].row-text-center > div > div > h2,
+[data-page-builder-element-type="grid-row"].row-text-center > div > div > h3,
+[data-page-builder-element-type="grid-row"].row-text-center > div > div > h4,
+[data-page-builder-element-type="grid-row"].row-text-center > div > div > h5,
+[data-page-builder-element-type="grid-row"].row-text-center > div > div > h6,
+[data-page-builder-element-type="grid-row"].row-text-center > div > div > ul,
+[data-page-builder-element-type="grid-row"].row-text-center > div > div > ol {
+  @apply text-center;
+}

@@ -1,0 +1,20 @@
+#===============================================================================
+# Block: MvLKSS Breadcrumb Navigation
+#===============================================================================
+
+name:
+  en: Breadcrumb Navigation
+  de: Breadcrumb-Navigation
+icon: angle-right
+fields:
+  includeCurrentPage:
+    type: toggle
+    label:
+      en: Current Page in Breadcrumb Navigation
+      de: Aktuelle Seite in der Breadcrumb-Navigation
+    text:
+      - en: Don’t include
+        de: Nicht anzeigen
+      - en: Include
+        de: Anzeigen
+    default: true

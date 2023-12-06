@@ -1,0 +1,15 @@
+#===============================================================================
+# Field: Brand Color Select
+#
+# Used to choose one of the brand olors defined in the config.php.
+#===============================================================================
+
+type: select
+label:
+  en: Brand Color
+  de: Markenfarbe
+options:
+  type: query
+  query: page.brandColorOptions
+  text: "{{ item.text }}"
+  value: "{{ item.value }}"

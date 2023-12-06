@@ -1,0 +1,35 @@
+#===============================================================================
+# Page: Default
+#===============================================================================
+
+title:
+  en: Default Page
+  de: Standardseite
+
+tabs:
+  # Content tab
+  content:
+    label:
+      en: Content
+      de: Inhalt
+    icon: page
+    sections:
+      fields:
+        type: fields
+        fields:
+          pageBuilder: fields/page-builder
+
+  # Metadata tab
+  metadata: tabs/metadata
+
+  #Navigation tab
+  navigationMenus: tabs/navigation-menus
+
+  # Uploaded files tab
+  uploadedFiles: tabs/uploaded-files
+
+  # Info tab
+  pageInfo: tabs/page-info
+
+  # Sub pages tab
+  subPages: tabs/sub-pages

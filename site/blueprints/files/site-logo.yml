@@ -1,0 +1,21 @@
+#===============================================================================
+# File: Site Logo
+#===============================================================================
+
+title:
+  en: Site Logo
+  de: Website-Logo
+
+accept:
+  type: image
+
+fields:
+  alt:
+    type: text
+    label:
+      en: Alternative text for the site logo image
+      de: Alternativ-Text für das Website-Logo-Bild
+    help:
+      en: Typically the name of the site
+      de: Üblicherweise der Name der Website
+    default: Logo

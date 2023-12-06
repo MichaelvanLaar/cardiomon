@@ -1,0 +1,57 @@
+{
+  "name": "michaelvanlaar/mvlkss",
+  "description": "Michael van Laar’s Kirby Site Starter",
+  "type": "project",
+  "keywords": [
+    "kirby",
+    "cms",
+    "starterkit"
+  ],
+  "authors": [
+    {
+      "name": "Bastian Allgeier",
+      "email": "bastian@getkirby.com",
+      "homepage": "https://getkirby.com"
+    },
+    {
+      "name": "Michael van Laar",
+      "email": "michael@van-laar.de",
+      "homepage": "https://michaelvanlaar.com"
+    }
+  ],
+  "homepage": "https://getkirby.com",
+  "support": {
+    "email": "support@getkirby.com",
+    "issues": "https://github.com/getkirby/starterkit/issues",
+    "forum": "https://forum.getkirby.com",
+    "source": "https://github.com/getkirby/starterkit"
+  },
+  "require": {
+    "php": ">=8.0.0 <8.3.0",
+    "adspectus/date-extended": "^1.1",
+    "afbora/kirby-minify-html": "^2.0",
+    "bnomei/kirby3-robots-txt": "^1.7",
+    "distantnative/retour-for-kirby": "^5.0",
+    "getkirby/cms": "^4.0",
+    "johannschopplich/kirby-hashed-assets": "^3.0",
+    "johannschopplich/kirby-highlighter": "^3.0",
+    "lukaskleinschmidt/kirby-snippet-controller": "^2.1",
+    "microman/kirby-grid-blocks": "^1.0"
+  },
+  "require-dev": {
+    "ergebnis/composer-normalize": "^2.39"
+  },
+  "config": {
+    "allow-plugins": {
+      "ergebnis/composer-normalize": true,
+      "getkirby/composer-installer": true
+    },
+    "optimize-autoloader": true
+  },
+  "scripts": {
+    "start": [
+      "Composer\\Config::disableProcessTimeout",
+      "@php -S localhost:8000 kirby/router.php"
+    ]
+  }
+}

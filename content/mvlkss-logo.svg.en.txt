@@ -1,0 +1,9 @@
+Alt: Logo
+
+----
+
+Uuid: 0sLoU6R7JGqIGl3I
+
+----
+
+Template: site-logo

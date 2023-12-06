@@ -1,0 +1,21 @@
+Title: Website-Titel
+
+----
+
+Sitelogo: - file://0sLoU6R7JGqIGl3I
+
+----
+
+Sitesocialshareimage: 
+
+----
+
+Defaultdivider: |
+
+----
+
+Defaultbreadcrumbdivider: >
+
+----
+
+Twittersitehandle: 

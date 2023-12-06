@@ -1,0 +1,13 @@
+#===============================================================================
+# File: Image from an image block
+#===============================================================================
+
+title:
+  en: Image
+  de: Bild
+
+accept:
+  type: image
+
+fields:
+  imageMetadata: fields/image-meta

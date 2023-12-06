@@ -1,0 +1,90 @@
+#===============================================================================
+# Site
+#===============================================================================
+
+title: Site
+
+tabs:
+  #Pages tab
+  pages:
+    label:
+      en: Pages
+      de: Seiten
+    icon: list-bullet
+    sections:
+      pages:
+        type: pages
+        label:
+          en: Pages
+          de: Seiten
+        create:
+          - default
+          - custom-menu-item
+
+  # Site Settings tab
+  siteSettings:
+    label:
+      en: Site Settings
+      de: Website-Einstellungen
+    icon: settings
+
+    columns:
+      images:
+        width: 1/2
+        fields:
+          siteLogo:
+            type: files
+            label:
+              en: Site Logo
+              de: Website-Logo
+            uploads: site-logo
+            required: true
+            max: 1
+            multiple: false
+            layout: cards
+            width: 1/2
+          siteSocialShareImage:
+            extends: fields/social-share-image
+            help:
+              en: "Minimum dimensions: 1200 × 630 pixels. This image will be used as fallback if no specific image exists for a page."
+              de: "Mindestmaße: 1200 × 630 Pixel. Dieses Bild wird als Fallback verwendet, wenn für eine Seite kein spezifisches Bild existiert."
+            width: 1/2
+      devider:
+        width: 1/4
+        fields:
+          defaultDivider:
+            type: text
+            required: true
+            label:
+              en: Default Divider Between the Elements in Metadata Titles
+              de: Standard-Trennzeichen zwischen den Elementen in Metainfo-Titeln
+            width: 1/4
+            help:
+              en: Typically one character like “–” or “|”
+              de: Typischerweise ein Zeichen wie  „–“ oder „|“
+          defaultBreadcrumbDivider:
+            type: text
+            required: true
+            label:
+              en: Default Divider Between the Elements in a Breadcrumb Navigation
+              de: Standard-Trennzeichen zwischen den Elementen in einer Breadcrumb-Navigation
+            help:
+              en: Typically one character like “>” or “»”
+              de: Typischerweise ein Zeichen wie  „>“ oder „»“
+            default: ">"
+      socialMedia:
+        width: 1/4
+        fields:
+          twitterSiteHandle:
+            type: text
+            label:
+              en: X Handle of the Site
+              de: X-Account der Website
+            help:
+              en: Please include the leading “@” character
+              de: Bitte mit dem „@“-Zeichen beginnen
+            width: 1/4
+            pattern: "^@([A-Za-z0-9_]{1,15})$"
+
+  # Uploaded files tab
+  uploadedFiles: tabs/uploaded-files

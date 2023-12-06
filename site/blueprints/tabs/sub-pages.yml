@@ -1,0 +1,20 @@
+#===============================================================================
+# Tab: Sub pages
+#
+# Displays all sub pages of the respective page.
+#===============================================================================
+
+label:
+  en: Sub Pages
+  de: Unterseiten
+icon: folder-structure
+
+sections:
+  subPages:
+    type: pages
+    label:
+      en: Sub Pages
+      de: Unterseiten
+    create:
+      - default
+      - custom-menu-item

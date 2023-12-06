@@ -1,0 +1,55 @@
+#===============================================================================
+# Block: Heading
+#
+# Replaces the default heading block blueprint
+#===============================================================================
+
+name: field.blocks.heading.name
+icon: title
+wysiwyg: true
+preview: heading
+fields:
+  level:
+    label: field.blocks.heading.level
+    type: toggles
+    empty: false
+    default: "h2"
+    labels: false
+    options:
+      - value: h1
+        icon: h1
+        text: H1
+      - value: h2
+        icon: h2
+        text: H2
+      - value: h3
+        icon: h3
+        text: H3
+      - value: h4
+        icon: h4
+        text: H4
+      - value: h5
+        icon: h5
+        text: H5
+      - value: h6
+        icon: h6
+        text: H6
+  text:
+    label: field.blocks.heading.text
+    type: writer
+    inline: true
+    placeholder: field.blocks.heading.placeholder
+  autoHyphenation:
+    label:
+      en: Auto Hyphenation
+      de: Automatische Silbentrennung
+    type: toggle
+    text:
+      - en: "No"
+        de: "Nein"
+      - en: "Yes"
+        de: "Ja"
+    help:
+      en: The browser must support the CSS property “hyphens” for this to work.
+      de: Der Browser muss die CSS-Eigenschaft „hyphens“ unterstützen, damit die automatische Siblentrennung funktioniert.
+    default: false
