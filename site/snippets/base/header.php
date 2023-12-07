@@ -178,13 +178,13 @@
     <?php endif; ?>
   </head>
 
-  <body class="flex min-h-screen flex-col bg-white dark:bg-neutral-950 dark:text-white print:block">
+  <body class="flex min-h-screen flex-col bg-white dark:bg-neutral-800 dark:text-white print:block">
 
     <!-- PAGE HEADER -->
     <!-- Row -->
     <header
       id="page-header"
-      class="z-30 h-[var(--site-header-height)] w-full bg-neutral-200 js:fixed dark:bg-neutral-600 print:h-[var(--site-header-initial-height)] print:bg-transparent print:js:static"
+      class="z-30 h-[var(--site-header-height)] w-full bg-lime-100 js:fixed dark:bg-lime-900 print:h-[var(--site-header-initial-height)] print:bg-transparent print:js:static"
       role="banner"
     >
       <!-- Inner row container -->
