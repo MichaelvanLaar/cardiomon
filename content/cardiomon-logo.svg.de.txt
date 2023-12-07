@@ -1,0 +1,5 @@
+Alt: CarDioMon
+
+----
+
+Template: site-logo
