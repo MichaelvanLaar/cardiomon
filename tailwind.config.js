@@ -15,7 +15,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: ["Nunito Sans", "sans-serif"],
+        primary: ["Readex Pro", "sans-serif"],
       },
       screens: {
         screen: {

@@ -52,54 +52,70 @@
     </script>
 
     <style>
-      /* Local webfont: nunito-sans-regular - latin */
+      /* Local webfont: readex-pro-200 - arabic_latin */
       @font-face {
         font-display: swap;
-        font-family: "Nunito Sans";
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 200;
+        src: url('/assets/fonts/readex-pro-v21-arabic_latin-200.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url('/assets/fonts/readex-pro-v21-arabic_latin-200.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      }
+
+      /* Local webfont: readex-pro-300 - arabic_latin */
+      @font-face {
+        font-display: swap;
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 300;
+        src: url('/assets/fonts/readex-pro-v21-arabic_latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url('/assets/fonts/readex-pro-v21-arabic_latin-300.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      }
+
+      /* Local webfont: readex-pro-regular - arabic_latin */
+      @font-face {
+        font-display: swap;
+        font-family: 'Readex Pro';
         font-style: normal;
         font-weight: 400;
-        src:
-          url("/assets/fonts/nunito-sans-v15-latin-regular.woff2") format("woff2"),
-          url("/assets/fonts/nunito-sans-v15-latin-regular.ttf") format("truetype");
+        src: url('/assets/fonts/readex-pro-v21-arabic_latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url('/assets/fonts/readex-pro-v21-arabic_latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
       }
 
-      /* Local webfont: nunito-sans-italic - latin */
+      /* Local webfont: readex-pro-500 - arabic_latin */
       @font-face {
         font-display: swap;
-        font-family: "Nunito Sans";
-        font-style: italic;
-        font-weight: 400;
-        src:
-          url("/assets/fonts/nunito-sans-v15-latin-italic.woff2") format("woff2"),
-          url("/assets/fonts/nunito-sans-v15-latin-italic.ttf") format("truetype");
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 500;
+        src: url('/assets/fonts/readex-pro-v21-arabic_latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url('/assets/fonts/readex-pro-v21-arabic_latin-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
       }
 
-      /* Local webfont: nunito-sans-700 - latin */
+      /* Local webfont: readex-pro-600 - arabic_latin */
       @font-face {
         font-display: swap;
-        font-family: "Nunito Sans";
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 600;
+        src: url('/assets/fonts/readex-pro-v21-arabic_latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url('/assets/fonts/readex-pro-v21-arabic_latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      }
+
+      /* Local webfont: readex-pro-700 - arabic_latin */
+      @font-face {
+        font-display: swap;
+        font-family: 'Readex Pro';
         font-style: normal;
         font-weight: 700;
-        src:
-          url("/assets/fonts/nunito-sans-v15-latin-700.woff2") format("woff2"),
-          url("/assets/fonts/nunito-sans-v15-latin-700.ttf") format("truetype");
-      }
-
-      /* Local webfont: nunito-sans-700italic - latin */
-      @font-face {
-        font-display: swap;
-        font-family: "Nunito Sans";
-        font-style: italic;
-        font-weight: 700;
-        src:
-          url("/assets/fonts/nunito-sans-v15-latin-700italic.woff2") format("woff2"),
-          url("/assets/fonts/nunito-sans-v15-latin-700italic.ttf") format("truetype");
+        src: url('/assets/fonts/readex-pro-v21-arabic_latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url('/assets/fonts/readex-pro-v21-arabic_latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
       }
 
       body {
         /* Used to trigger early font detection and download,
         see https://web.dev/articles/font-best-practices?hl=en#inline_font_declarations */
-        font-family: "Nunito Sans", sans-serif;
+        font-family: "Readex Pro", sans-serif;
 
         /* Set site header height */
         --site-header-initial-height: 6rem;
