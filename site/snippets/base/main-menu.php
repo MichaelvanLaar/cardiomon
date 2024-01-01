@@ -93,15 +93,27 @@
                       if ($pageLanguageCode != $lang->code()): ?>
                         <a
                           href="<?= $page->url($lang->code()) ?>"
-                          aria-label="<?= t("Switch to", "Switch to") .
+                          aria-label="<?= t(
+                            "Switch to",
+                            "Switch to",
+                            $lang->code()
+                          ) .
                             " " .
-                            $lang->name() ?>"
+                            t(
+                              "Language name for language switch",
+                              $lang->name(),
+                              $lang->code()
+                            ) ?>"
                         >
                       <?php else: ?>
                         <span class="text-neutral-500 dark:text-neutral-400">
                       <?php endif;
                       ?>
-                          <small><?= $lang->code() ?></small>
+                          <small><?= t(
+                            "Label for language switch",
+                            $lang->code(),
+                            $lang->code()
+                          ) ?></small>
                       <?php if ($kirby->language()->code() != $lang->code()): ?>
                         </a>
                       <?php else: ?>
