@@ -118,24 +118,19 @@
         font-family: "Readex Pro", sans-serif;
 
         /* Set site header height */
-        --site-header-initial-height: 6rem;
+        --site-header-initial-height: 5rem;
         --site-header-scroll-height: 3rem;
         --site-header-height: var(--site-header-initial-height);
 
         /* Set site header vertical padding */
-        --site-header-initial-padding-y: 0.75rem;
-        --site-header-scroll-padding-y: 0.3125rem;
+        --site-header-initial-padding-y: 0.5rem;
+        --site-header-scroll-padding-y: 0.3rem;
         --site-header-padding-y: var(--site-header-initial-padding-y);
 
         /* Calculate site logo dimensions */
-        --site-logo-initial-height: calc(var(--site-header-initial-height) - (2 * var(--site-header-initial-padding-y)));
-        --site-logo-height: calc(var(--site-header-height) - (2 * var(--site-header-padding-y)));
+        --site-logo-initial-height: calc(var(--site-header-height) * 1.2);
+        --site-logo-height: calc(var(--site-header-height) * 1.2);
         --site-logo-aspect-ratio: <?= $siteLogoFile->dimensions()->ratio() ?>;
-
-        /* Calculate site logo container dimensions */
-        --site-logo-initial-container-height: calc(var(--site-logo-initial-height) + 2px);
-        --site-logo-container-height: calc(var(--site-logo-height) + 2px);
-        --site-logo-container-width: calc(var(--site-logo-height) * var(--site-logo-aspect-ratio));
 
         /* Calculate navigation toggle width  */
         --main-navigation-toggle-width: calc(var(--site-header-scroll-height) - (2 * var(--site-header-scroll-padding-y)) + 1.5rem);
@@ -200,23 +195,22 @@
     <!-- Row -->
     <header
       id="page-header"
-      class="z-30 h-[var(--site-header-height)] w-full bg-lime-100 js:fixed dark:bg-lime-900 print:h-[var(--site-header-initial-height)] print:bg-transparent print:js:static"
+      class="z-30 flex h-[var(--site-header-height)] w-full bg-lime-100 js:fixed dark:bg-lime-900 print:h-[var(--site-header-initial-height)] print:bg-transparent print:js:static"
       role="banner"
     >
       <!-- Inner row container -->
-      <div class="row-container-default flex justify-between py-[var(--site-header-padding-y)]">
+      <div class="row-container-default relative flex items-center justify-end pt-[calc(0.25_*_var(--site-header-height))]">
         <!-- Site logo -->
-        <div class="site-logo-container h-[var(--site-logo-container-height)] w-[var(--site-logo-container-width)] max-w-[10rem] print:h-[var(--site-logo-initial-container-height)]">
-          <a
-            href="<?= $site->url() ?>"
-            title="<?= $site->title() ?> → <?= $site->homePage()->title() ?>"
-            aria-label="<?= $site->title() ?> Logo"
-          >
-            <?= $siteLogoFile->extension() == "svg"
-              ? svg($siteLogoFile)
-              : $siteLogoFile ?>
-          </a>
-        </div>
+        <a
+          href="<?= $site->url() ?>"
+          title="<?= $site->title() ?> → <?= $site->homePage()->title() ?>"
+          aria-label="<?= $site->title() ?> Logo"
+          class="site-logo-container absolute start-medium top-0 -ms-[calc(0.0521_*_var(--site-header-height))] print:start-0 print:ms-0 lg:start-large"
+        >
+          <?= $siteLogoFile->extension() == "svg"
+            ? svg($siteLogoFile)
+            : $siteLogoFile ?>
+        </a>
 
         <?php snippet("base/main-menu", [
           "pageLanguageCode" => $pageLanguageCode,
