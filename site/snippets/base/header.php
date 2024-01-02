@@ -205,7 +205,7 @@
           href="<?= $site->url() ?>"
           title="<?= $site->title() ?> → <?= $site->homePage()->title() ?>"
           aria-label="<?= $site->title() ?> Logo"
-          class="site-logo-container absolute start-medium top-0 -ms-[calc(0.0521_*_var(--site-header-height))] print:start-0 print:ms-0 lg:start-large"
+          class="[&_svg]:hover:brightness-125 [&_svg]:hover:transition-all site-logo-container absolute start-medium top-0 -ms-[calc(0.0521_*_var(--site-header-height))] print:start-0 print:ms-0 lg:start-large"
         >
           <?= $siteLogoFile->extension() == "svg"
             ? svg($siteLogoFile)

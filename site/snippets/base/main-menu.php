@@ -55,22 +55,22 @@
               >
                 <!-- Animated hamburger icon -->
                 <div class="nav-toggle-icon relative h-[calc(var(--site-header-scroll-height)_/_4)] w-[calc(var(--site-header-scroll-height)_/_3)]">
-                  <span class="absolute left-0 top-0 block h-[var(--nav-toggle-icon-stroke-width)] w-full rotate-0 rounded-sm bg-black transition-[left,_width,_top,_transform] duration-300 ease-in-out dark:bg-white"></span>
-                  <span class="absolute left-0 top-[calc(50%_-_(var(--nav-toggle-icon-stroke-width)_/_2))] block h-[var(--nav-toggle-icon-stroke-width)] w-full rotate-0 rounded-sm bg-black transition-[left,_width,_top,_transform] duration-300 ease-in-out dark:bg-white"></span>
-                  <span class="absolute left-0 top-[calc(50%_-_(var(--nav-toggle-icon-stroke-width)_/_2))] block h-[var(--nav-toggle-icon-stroke-width)] w-full rotate-0 rounded-sm bg-black transition-[left,_width,_top,_transform] duration-300 ease-in-out dark:bg-white"></span>
-                  <span class="absolute left-0 top-[calc(100%_-_var(--nav-toggle-icon-stroke-width))] block h-[var(--nav-toggle-icon-stroke-width)] w-full rotate-0 rounded-sm bg-black transition-[left,_width,_top,_transform] duration-300 ease-in-out dark:bg-white"></span>
+                  <span class="absolute left-0 top-0 block h-[var(--nav-toggle-icon-stroke-width)] w-full rotate-0 rounded-sm bg-yellow-900 transition-[left,_width,_top,_transform] duration-300 ease-in-out dark:bg-yellow-400"></span>
+                  <span class="absolute left-0 top-[calc(50%_-_(var(--nav-toggle-icon-stroke-width)_/_2))] block h-[var(--nav-toggle-icon-stroke-width)] w-full rotate-0 rounded-sm bg-yellow-900 transition-[left,_width,_top,_transform] duration-300 ease-in-out dark:bg-yellow-400"></span>
+                  <span class="absolute left-0 top-[calc(50%_-_(var(--nav-toggle-icon-stroke-width)_/_2))] block h-[var(--nav-toggle-icon-stroke-width)] w-full rotate-0 rounded-sm bg-yellow-900 transition-[left,_width,_top,_transform] duration-300 ease-in-out dark:bg-yellow-400"></span>
+                  <span class="absolute left-0 top-[calc(100%_-_var(--nav-toggle-icon-stroke-width))] block h-[var(--nav-toggle-icon-stroke-width)] w-full rotate-0 rounded-sm bg-yellow-900 transition-[left,_width,_top,_transform] duration-300 ease-in-out dark:bg-yellow-4 00"></span>
                 </div>
               </label>
             </div>
 
             <!-- Main menu items -->
-            <ul id="main-menu" class="invisible absolute end-small top-[var(--site-header-height)] flex max-h-[calc(100vh_-_var(--site-header-height)_-_0.75rem)] max-w-2xl flex-col overflow-y-auto bg-neutral-300 py-small opacity-0 transition-[opacity,_visibility] duration-300 ease-in-out dark:bg-neutral-700 md:visible md:static md:max-h-none md:flex-row md:overflow-y-visible md:bg-transparent md:py-0 md:opacity-100">
+            <ul id="main-menu" class="invisible absolute end-small top-[var(--site-header-height)] flex max-h-[calc(100vh_-_var(--site-header-height)_-_0.75rem)] max-w-2xl flex-col overflow-y-auto bg-lime-200 py-small opacity-0 transition-[opacity,_visibility] duration-300 ease-in-out dark:bg-lime-800 md:visible md:static md:max-h-none md:flex-row md:overflow-y-visible md:bg-transparent dark:md:bg-transparent md:py-0 md:opacity-100">
               <?php foreach ($mainMenuItems as $menuItem): ?>
                 <li class="<?= $menuItem["isActive"] ?> md:ms-medium">
                   <a
                     href="<?= $menuItem["url"] ?>"
                     target="<?= $menuItem["target"] ?>"
-                    class="block px-medium py-small md:static md:px-0 md:py-0"
+                    class="block px-medium py-small text-yellow-900 md:static md:px-0 md:py-0 dark:text-yellow-400"
                     <?= $menuItem["target"] == "_blank"
                       ? "rel=\"noopener\""
                       : "" ?>
@@ -93,6 +93,7 @@
                       if ($pageLanguageCode != $lang->code()): ?>
                         <a
                           href="<?= $page->url($lang->code()) ?>"
+                          class="text-yellow-900 dark:text-yellow-400"
                           aria-label="<?= t(
                             "Switch to",
                             "Switch to",
@@ -106,7 +107,7 @@
                             ) ?>"
                         >
                       <?php else: ?>
-                        <span class="text-neutral-500 dark:text-neutral-400">
+                        <span class="text-lime-700 dark:text-lime-300">
                       <?php endif;
                       ?>
                           <small><?= t(
@@ -120,7 +121,7 @@
                         </span>
                       <?php endif; ?>
                       <?php if ($counter < $languageCount): ?>
-                        <span class="px-1 text-neutral-500 dark:text-neutral-400"><small>/</small></span>
+                        <span class="px-1 text-lime-700 dark:text-lime-300"><small>/</small></span>
                       <?php endif; ?>
                     <?php endforeach;
                     ?>
