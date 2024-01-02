@@ -59,7 +59,7 @@
    */
 
   a {
-    @apply hover:brightness-125 hover:transition-all;
+    @apply hover:underline hover:transition-all;
   }
 }
 
