@@ -1,8 +1,8 @@
-Title: Testseite 2
+Title: Impressum
 
 ----
 
-Slug: testseite-2
+Slug: impressum
 
 ----
 
@@ -55,3 +55,7 @@ Twittercreatorhandle:
 ----
 
 Includeinmenus: footer
+
+----
+
+Datemodifiedepoch: 1704217377
