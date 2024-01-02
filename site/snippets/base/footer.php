@@ -15,12 +15,12 @@
     <!-- Row -->
     <footer
       id="page-footer"
-      class="w-full bg-neutral-600 py-medium dark:bg-neutral-900 print:hidden"
+      class="w-full bg-yellow-950 py-medium print:hidden"
       role="contentinfo"
     >
       <!-- Inner row container -->
-      <div class="row-container-default flex flex-col items-center justify-between text-white md:flex-row md:items-stretch">
-        <nav class="mb-3 flex items-center md:mb-0" aria-label="Footer Links">
+      <div class="row-container-default flex flex-col items-center justify-between text-white md:flex-row md:items-center">
+        <nav class="mb-3 flex items-center shrink-0 md:mb-0 md:me-xlarge" aria-label="Footer Links">
           <ul class="flex">
             <?php foreach ($footerMenuItems as $menuItem): ?>
               <li class="me-medium last:me-0">
@@ -34,8 +34,8 @@
             <?php endforeach; ?>
           </ul>
         </nav>
-        <div>
-          Social Media Links
+        <div class="text-yellow-600 text-center md:text-end [&_a]:text-white leading-none md:max-w-[50%] md:ps-medium">
+          <small><?= t("Disclaimer for footer") ?></small>
         </div>
       </div>
     </footer>
@@ -47,7 +47,7 @@
     >
       <!-- Loading indicator -->
       <div id="image-modal-loader" class="hidden absolute inset-0 items-center justify-center" role="status">
-        <div class="border-neutral-400 h-xlarge w-xlarge animate-spin rounded-full border-[1rem] border-t-neutral-800"></div>
+        <div class="border-lime-500 h-xlarge w-xlarge animate-spin rounded-full border-[1rem] border-t-lime-900"></div>
       </div>
 
       <!-- Close button of the modal -->
