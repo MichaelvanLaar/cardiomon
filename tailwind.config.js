@@ -65,10 +65,10 @@ module.exports = {
             "--tw-prose-invert-td-borders": "#ffffff",
           },
         },
-        mvlkss: {
+        cardiomon: {
           css: {
             "--tw-prose-body": theme("colors.neutral[700]"),
-            "--tw-prose-headings": theme("colors.neutral[900]"),
+            "--tw-prose-headings": theme("colors.lime[900]"),
             "--tw-prose-lead": theme("colors.neutral[600]"),
             "--tw-prose-links": theme("colors.blue[700]"),
             "--tw-prose-bold": theme("colors.neutral[900]"),
@@ -86,7 +86,7 @@ module.exports = {
             "--tw-prose-th-borders": theme("colors.neutral[300]"),
             "--tw-prose-td-borders": theme("colors.neutral[200]"),
             "--tw-prose-invert-body": theme("colors.neutral[300]"),
-            "--tw-prose-invert-headings": theme("colors.white"),
+            "--tw-prose-invert-headings": theme("colors.lime[500]"),
             "--tw-prose-invert-lead": theme("colors.neutral[400]"),
             "--tw-prose-invert-links": theme("colors.blue[300]"),
             "--tw-prose-invert-bold": theme("colors.white"),
