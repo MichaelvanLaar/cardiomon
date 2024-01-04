@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Pagebuilder: [{"attrs":{"rowwidth":"row-container-default","rowverticalalign":"top","rowpaddingtop":"none","rowpaddingbottom":"none","rowbackgroundcolor":"","rowbackgroundimage":[],"rowbackgroundimagesize":"cover","rowbackgroundimageposition":"middle-center","rowbackgroundimagerepeat":"no-repeat","rowid":"","rowclasses":""},"columns":[{"blocks":[{"content":{"text":"<p>Plenty of room for your content.</p>"},"id":"79d2307b-1851-4d32-83c9-923ce0f61b1f","isHidden":false,"type":"text"}],"id":"0c434a55-25d0-407d-a8bf-ec6a0d32bdeb","width":"1/1"}],"id":"09c5c1be-1d0a-480f-8535-8fb810db442e"}]
+Pagebuilder: [{"attrs":{"rowwidth":"row-container-default","rowverticalalign":"top","rowpaddingtop":"xlarge","rowpaddingbottom":"xlarge","rowbackgroundcolor":"cardiomon-light-green","rowbackgroundimage":["file://eid0ezjgT5z54ylC"],"rowbackgroundimagesize":"auto","rowbackgroundimageposition":"bottom-left","rowbackgroundimagerepeat":"repeat-x","rowid":"","rowclasses":""},"columns":[{"blocks":[{"content":{"text":"# Our Planet, Our Responsibility: A&nbsp;Global Look at CO<sub>2</sub> Emissions"},"id":"49c28016-0c63-4ad4-9cc9-57f6a803a53c","isHidden":false,"type":"markdown"}],"id":"34db20a4-ad18-4856-9668-fbb49d4bd9ac","width":"2/3"},{"blocks":[],"id":"08f876ce-496c-4e61-97b3-f0db29453cb5","width":"1/3"}],"id":"eaccffc2-a575-4640-8789-2c55f1171879"}]
 
 ----
 
@@ -55,3 +55,7 @@ Includeinmenus:
 ----
 
 Uuid: pULkpQELpVmHReOp
+
+----
+
+Datemodifiedepoch: 1704390728
