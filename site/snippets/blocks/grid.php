@@ -133,7 +133,7 @@ foreach ($block->grid()->toLayouts() as $gridLayoutRow): ?>
             " print:prose-black";
         } else {
         $gridColumnInnerContainerClassOutput =
-          " prose-mvlkss dark:prose-invert print:prose-black";
+          " prose-cardiomon dark:prose-invert print:prose-black";
       }
       if ($gridLayoutRow->gridRowVerticalAlign()->isNotEmpty()) {
         switch ($gridLayoutRow->gridRowVerticalAlign()->value()) {
