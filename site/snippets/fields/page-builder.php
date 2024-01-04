@@ -76,7 +76,7 @@ $innerRowContainerClasses =
             " print:prose-black";
         } else {
           $columnInnerContainerClassOutput =
-            " prose-mvlkss dark:prose-invert print:prose-black";
+            " prose-cardiomon dark:prose-invert print:prose-black";
         }
         if ($layoutRow["layout"]->rowVerticalAlign()->isNotEmpty()) {
           switch ($layoutRow["layout"]->rowVerticalAlign()->value()) {
