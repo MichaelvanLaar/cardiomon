@@ -18,6 +18,7 @@
   "devDependencies": {
     "@babel/core": "^7.23.7",
     "@babel/preset-env": "^7.23.7",
+    "@neupauer/tailwindcss-plugin-colors": "^1.0.1",
     "@prettier/plugin-php": "^0.22.1",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/container-queries": "^0.1.1",
