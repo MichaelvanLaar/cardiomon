@@ -1,0 +1,25 @@
+Title: جدول الانبعاثات
+
+----
+
+Slug: jadwal-alainbieathat
+
+----
+
+Menuitemlink: #tawila
+
+----
+
+Menuitemtarget: _self
+
+----
+
+Includeinmenus: main
+
+----
+
+Menuitemurl: https://michaelvanlaar.com/
+
+----
+
+Datemodifiedepoch: 1704927108

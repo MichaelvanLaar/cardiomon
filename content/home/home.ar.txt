@@ -4,23 +4,27 @@ Title: Home
 
 Pagebuilder:
 
-[{"attrs":{"rowwidth":"row-container-default","rowverticalalign":"top","rowpaddingtop":"xlarge","rowpaddingbottom":"xlarge","rowbackgroundcolor":"cardiomon-light-green","rowbackgroundimage":["file://jRxmy07cckeaXuyO"],"rowbackgroundimagesize":"auto","rowbackgroundimageposition":"middle-center","rowbackgroundimagerepeat":"repeat","rowid":"","rowclasses":"header-main-stage"},"columns":[{"blocks":[{"content":{"text":"# كوكبنا مسؤوليتنا:<br>نظرة عالمية على انبعاثات ثاني أكسيد الكربون"},"id":"420718a7-2877-4ab0-b1e4-edc445712a7e","isHidden":false,"type":"markdown"}],"id":"bd811ee3-cdd8-404f-a47c-66665f3f57ed","width":"1/1"}],"id":"1e11689d-e3a4-435b-a05f-c85a74a27112"},{"attrs":{"rowwidth":"row-container-default","rowverticalalign":"top","rowpaddingtop":"medium","rowpaddingbottom":"medium","rowbackgroundcolor":"","rowbackgroundimage":[],"rowbackgroundimagesize":"cover","rowbackgroundimageposition":"middle-center","rowbackgroundimagerepeat":"no-repeat","rowid":"","rowclasses":""},"columns":[{"blocks":[{"content":{"title":"","sticky":"false","grid":"[{\"attrs\":{\"gridrowverticalalign\":\"top\",\"gridrowpaddingtop\":\"small\",\"gridrowpaddingbottom\":\"small\",\"gridrowpaddingstart\":\"medium\",\"gridrowpaddingend\":\"medium\",\"gridrowgap\":\"medium\",\"gridrowbackgroundcolor\":\"cardiomon-dark-green\",\"gridrowid\":\"\",\"gridrowclasses\":\"\"},\"columns\":[{\"blocks\":[{\"content\":{\"text\":\"<p>هذا الموقع عبارة عن <a href=\\\"https://www.iu.de/en/bachelor/informatik/distance-learning/\\\" target=\\\"_blank\\\">دراسة حالة</a> لمقرر علوم الكمبيوتر «IPWA01-01» في <a href=\\\"https://www.iu.de/en/bachelor/informatik/distance-learning/\\\" target=\\\"_blank\\\">جامعة IU الدولية للعلوم التطبيقية</a>.<br><strong>المحتويات والبيانات وهمية.</strong></p>\"},\"id\":\"ba295cd2-d498-4cf7-999c-4ffa4b3ae8c8\",\"isHidden\":false,\"type\":\"text\"}],\"id\":\"594ab288-89ed-4ab8-be1c-cfbc4bd49ba0\",\"width\":\"1/1\"}],\"id\":\"5a9c7c47-a5e1-4d16-9bfc-cd1585c433d7\"}]"},"id":"16cceff5-6f70-4fd7-831b-a5a1e8a07be6","isHidden":false,"type":"grid"}],"id":"1a8416f6-8e64-4560-80b4-c3e809c38a5f","width":"1/1"}],"id":"cb849b40-c9df-4c35-94f8-b004ea99546f"}]
+[{"attrs":{"rowwidth":"row-container-default","rowverticalalign":"top","rowpaddingtop":"xlarge","rowpaddingbottom":"xlarge","rowbackgroundcolor":"cardiomon-light-green","rowbackgroundimage":["file://jRxmy07cckeaXuyO"],"rowbackgroundimagesize":"auto","rowbackgroundimageposition":"middle-center","rowbackgroundimagerepeat":"repeat","rowid":"","rowclasses":"header-main-stage"},"columns":[{"blocks":[{"content":{"text":"# كوكبنا مسؤوليتنا:<br>نظرة عالمية على انبعاثات ثاني أكسيد الكربون"},"id":"420718a7-2877-4ab0-b1e4-edc445712a7e","isHidden":false,"type":"markdown"}],"id":"bd811ee3-cdd8-404f-a47c-66665f3f57ed","width":"1/1"}],"id":"1e11689d-e3a4-435b-a05f-c85a74a27112"},{"attrs":{"rowwidth":"row-container-default","rowverticalalign":"top","rowpaddingtop":"large","rowpaddingbottom":"none","rowbackgroundcolor":"","rowbackgroundimage":[],"rowbackgroundimagesize":"cover","rowbackgroundimageposition":"middle-center","rowbackgroundimagerepeat":"no-repeat","rowid":"","rowclasses":""},"columns":[{"blocks":[{"content":{"title":"","sticky":"false","grid":"[{\"attrs\":{\"gridrowverticalalign\":\"top\",\"gridrowpaddingtop\":\"small\",\"gridrowpaddingbottom\":\"small\",\"gridrowpaddingstart\":\"medium\",\"gridrowpaddingend\":\"medium\",\"gridrowgap\":\"medium\",\"gridrowbackgroundcolor\":\"cardiomon-dark-green\",\"gridrowid\":\"\",\"gridrowclasses\":\"\"},\"columns\":[{\"blocks\":[{\"content\":{\"text\":\"<p>هذا الموقع عبارة عن <a href=\\\"https://www.iu.de/en/bachelor/informatik/distance-learning/\\\" target=\\\"_blank\\\">دراسة حالة</a> لمقرر علوم الكمبيوتر «IPWA01-01» في <a href=\\\"https://www.iu.de/en/bachelor/informatik/distance-learning/\\\" target=\\\"_blank\\\">جامعة IU الدولية للعلوم التطبيقية</a>.<br><strong>المحتويات والبيانات وهمية.</strong></p>\"},\"id\":\"ba295cd2-d498-4cf7-999c-4ffa4b3ae8c8\",\"isHidden\":false,\"type\":\"text\"}],\"id\":\"594ab288-89ed-4ab8-be1c-cfbc4bd49ba0\",\"width\":\"1/1\"}],\"id\":\"5a9c7c47-a5e1-4d16-9bfc-cd1585c433d7\"}]"},"id":"16cceff5-6f70-4fd7-831b-a5a1e8a07be6","isHidden":false,"type":"grid"}],"id":"1a8416f6-8e64-4560-80b4-c3e809c38a5f","width":"1/1"}],"id":"cb849b40-c9df-4c35-94f8-b004ea99546f"},{"attrs":{"rowwidth":"row-container-default","rowverticalalign":"top","rowpaddingtop":"large","rowpaddingbottom":"xlarge","rowbackgroundcolor":"","rowbackgroundimage":[],"rowbackgroundimagesize":"cover","rowbackgroundimageposition":"middle-center","rowbackgroundimagerepeat":"no-repeat","rowid":"","rowclasses":""},"columns":[{"blocks":[{"content":{"text":"<p>إن عالمنا يواجه تحديا غير مسبوق. أدت انبعاثات ثاني أكسيد الكربون كمنتج ثانوي للأنشطة الصناعية والتجارية إلى تأثير ملحوظ ومتزايد على مناخنا. وهذه ليست قضية بيئية فحسب، بل هي أيضا قضية عدالة اجتماعية واستقرار اقتصادي. إن تغير المناخ الناجم عن الانبعاثات غير الخاضعة للرقابة يهدد سبل عيش الملايين من الناس ويؤثر على كل جانب من جوانب حياتنا اليومية.</p>"},"id":"ccb80613-5ae6-49de-8dfb-419e3de50556","isHidden":false,"type":"text"}],"id":"7e74cf59-343c-494a-85e5-a62397a7c080","width":"1/2"},{"blocks":[{"content":{"text":"<p>لقد حان الوقت للارتقاء إلى مستوى التحدي. من خلال هذا الموقع، نهدف إلى خلق الشفافية وتمهيد الطريق لمزيد من الممارسات المستدامة. لا تُظهر بياناتنا مستويات الانبعاثات الحالية فحسب، بل توفر أيضًا نظرة ثاقبة حول تأثير هذه الانبعاثات على المناطق والمجتمعات المختلفة. نحن نؤمن بأن المعرفة هي الخطوة الأولى نحو العمل الفعال. معًا، يمكننا أن نقود الطريق إلى عالم أكثر استدامة وإنصافًا.</p>"},"id":"07b6c925-4580-4dfd-b68b-15edcaa3368a","isHidden":false,"type":"text"}],"id":"749effe6-7b9e-4b57-858f-08734bf15c3f","width":"1/2"}],"id":"3ae0f408-34cd-4d94-9d1e-4b900232152a"},{"attrs":{"rowwidth":"row-container-default","rowverticalalign":"top","rowpaddingtop":"xlarge","rowpaddingbottom":"xlarge","rowbackgroundcolor":"cardiomon-light-green","rowbackgroundimage":[],"rowbackgroundimagesize":"cover","rowbackgroundimageposition":"middle-center","rowbackgroundimagerepeat":"no-repeat","rowid":"tawila","rowclasses":""},"columns":[{"blocks":[{"content":{"level":"h2","text":"كمية ثاني أكسيد الكربون المنبعثة من الشركات الكبيرة كل عام","autohyphenation":"false"},"id":"26abfaf5-29b1-4a03-8a07-f06126dd7e23","isHidden":false,"type":"heading"},{"content":{"text":"<p>[طاولة]</p>"},"id":"5d107fe1-f204-48fc-add7-fc23adf7e80b","isHidden":false,"type":"text"}],"id":"558303c9-c061-4504-b86e-4684c83d6941","width":"1/1"}],"id":"7df8ad01-319c-4660-9f82-02b527453ffd"}]
 
 ----
 
-Seotitle: 
+Seotitle:
+
+CarDioMon: نظرة عالمية على انبعاثات ثاني أكسيد الكربون
 
 ----
 
-Appenddefaultdividertotitleelement: true
+Appenddefaultdividertotitleelement: false
 
 ----
 
-Appendsitetitletotitleelement: true
+Appendsitetitletotitleelement: false
 
 ----
 
-Seodescription: 
+Seodescription:
+
+لا تُظهر بياناتنا مستويات الانبعاثات الحالية فحسب، بل توفر أيضًا نظرة ثاقبة حول تأثير هذه الانبعاثات على المناطق والمجتمعات المختلفة.
 
 ----
 
@@ -56,4 +60,4 @@ Includeinmenus:
 
 ----
 
-Datemodifiedepoch: 1704413389
+Datemodifiedepoch: 1704929399

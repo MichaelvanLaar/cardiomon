@@ -1,12 +1,12 @@
-Title: External Link
+Title: Emissions Table
 
 ----
 
-Menuitemlink: https://getkirby.com/
+Menuitemlink: #table
 
 ----
 
-Menuitemtarget: _blank
+Menuitemtarget: _self
 
 ----
 
@@ -22,4 +22,4 @@ Uuid: mOmuOhCvr5w9iHiq
 
 ----
 
-Datemodifiedepoch: 1701302901
+Datemodifiedepoch: 1704926992

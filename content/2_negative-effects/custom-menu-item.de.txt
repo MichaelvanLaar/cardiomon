@@ -1,0 +1,25 @@
+Title: Auswirkungen
+
+----
+
+Slug: negative-auswirkungen
+
+----
+
+Menuitemlink: #auswirkungen
+
+----
+
+Menuitemtarget: _self
+
+----
+
+Includeinmenus: main
+
+----
+
+Datecreatedepoch: 1704932880
+
+----
+
+Datemodifiedepoch: 1704936511
