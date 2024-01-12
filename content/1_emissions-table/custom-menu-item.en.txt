@@ -1,8 +1,8 @@
-Title: Emissions Table
+Title: Emissions
 
 ----
 
-Menuitemlink: #table
+Menuitemlink: #emissions
 
 ----
 
@@ -22,4 +22,4 @@ Uuid: mOmuOhCvr5w9iHiq
 
 ----
 
-Datemodifiedepoch: 1704926992
+Datemodifiedepoch: 1705016997

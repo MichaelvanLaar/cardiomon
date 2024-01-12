@@ -1,4 +1,4 @@
-Title: جدول الانبعاثات
+Title: الانبعاثات
 
 ----
 
@@ -6,7 +6,7 @@ Slug: jadwal-alainbieathat
 
 ----
 
-Menuitemlink: #tawila
+Menuitemlink: #aliainbieathat
 
 ----
 
@@ -22,4 +22,4 @@ Menuitemurl: https://michaelvanlaar.com/
 
 ----
 
-Datemodifiedepoch: 1704927108
+Datemodifiedepoch: 1705017098

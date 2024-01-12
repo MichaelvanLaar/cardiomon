@@ -1,4 +1,4 @@
-Title: Emissionstabelle
+Title: Emissionen
 
 ----
 
@@ -6,7 +6,7 @@ Slug: emissionstabelle
 
 ----
 
-Menuitemlink: #tabelle
+Menuitemlink: #emissionen
 
 ----
 
@@ -22,4 +22,4 @@ Menuitemurl: https://michaelvanlaar.com/
 
 ----
 
-Datemodifiedepoch: 1704927025
+Datemodifiedepoch: 1705016950

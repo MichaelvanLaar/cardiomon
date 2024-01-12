@@ -1,0 +1,25 @@
+Title: أبدي فعل
+
+----
+
+Slug: abdi-fiel
+
+----
+
+Menuitemlink: #faeal
+
+----
+
+Menuitemtarget: _self
+
+----
+
+Includeinmenus: main
+
+----
+
+Datecreatedepoch: 1705015052
+
+----
+
+Datemodifiedepoch: 1705015356
