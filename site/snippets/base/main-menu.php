@@ -18,7 +18,7 @@
  */
 ?>
         <!-- Main menu -->
-        <div class="-me-medium flex justify-end ps-medium md:me-0 print:hidden">
+        <div class="-me-medium flex justify-end ps-medium lg:me-0 print:hidden">
           <input
             type="checkbox"
             id="main-menu-state"
@@ -29,7 +29,7 @@
             <!-- Toggle button for mobile menu, see:
                  https://www.pausly.app/blog/accessible-hamburger-buttons-without-javascript
                  (with animated toogle icon instead of two unicode characters) -->
-            <div class="relative h-[var(--site-logo-height)] w-[var(--main-navigation-toggle-width)] md:hidden">
+            <div class="relative h-[var(--site-logo-height)] w-[var(--main-navigation-toggle-width)] lg:hidden">
               <a
                 href="#main-menu-state"
                 class="main-menu-open absolute inset-0"
@@ -64,13 +64,13 @@
             </div>
 
             <!-- Main menu items -->
-            <ul id="main-menu" class="invisible absolute end-small top-[var(--site-header-height)] flex max-h-[calc(100vh_-_var(--site-header-height)_-_0.75rem)] max-w-2xl flex-col overflow-y-auto bg-lime-200 py-small opacity-0 transition-[opacity,_visibility] duration-300 ease-in-out dark:bg-lime-800 md:visible md:static md:max-h-none md:flex-row md:overflow-y-visible md:bg-transparent dark:md:bg-transparent md:py-0 md:opacity-100">
+            <ul id="main-menu" class="invisible absolute end-small top-[var(--site-header-height)] flex max-h-[calc(100vh_-_var(--site-header-height)_-_0.75rem)] max-w-2xl flex-col overflow-y-auto bg-lime-200 py-small opacity-0 transition-[opacity,_visibility] duration-300 ease-in-out dark:bg-lime-800 lg:visible lg:static lg:max-h-none lg:flex-row lg:overflow-y-visible lg:bg-transparent dark:lg:bg-transparent lg:py-0 lg:opacity-100">
               <?php foreach ($mainMenuItems as $menuItem): ?>
-                <li class="<?= $menuItem["isActive"] ?> md:ms-medium">
+                <li class="<?= $menuItem["isActive"] ?> lg:ms-medium">
                   <a
                     href="<?= $menuItem["url"] ?>"
                     target="<?= $menuItem["target"] ?>"
-                    class="block px-medium py-small text-yellow-900 md:static md:px-0 md:py-0 dark:text-yellow-400"
+                    class="block px-medium py-small text-yellow-900 lg:static lg:px-0 lg:py-0 dark:text-yellow-400"
                     <?= $menuItem["target"] == "_blank"
                       ? "rel=\"noopener\""
                       : "" ?>
@@ -82,8 +82,8 @@
               
               <?php if ($hasMoreThanOneLanguage): ?>
                 <!-- Language switcher -->
-                <li class="md:ms-large">
-                  <div class="flex px-medium pb-small pt-medium uppercase md:static md:px-0 md:py-0">
+                <li class="lg:ms-large">
+                  <div class="flex px-medium pb-small pt-medium uppercase lg:static lg:px-0 lg:py-0">
                     <?php
                     $languageCount = count($languages);
                     $counter = 0;
