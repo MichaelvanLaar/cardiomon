@@ -49,14 +49,4 @@ sections:
         text:
           en: This page is used as a parent for the emmissions data entries and to provide the data in JSON format.
           de: Diese Seite wird als Elternseite für die Emissionsdateneinträge verwendet und stellt die Daten im JSON-Format zur Verfügung.
-  subPages:
-    type: pages
-    label:
-      en: Emissions Data Entries
-      de: Emissionsdateneinträge
-    template: emissions-data-entry
-    create:
-      - emissions-data-entry
-    sortable: false
-    sortBy: title asc
-    search: true
+  emissionsDataEntries: sections/emissions-data-entries
