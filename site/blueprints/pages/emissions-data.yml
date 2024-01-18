@@ -1,0 +1,62 @@
+#===============================================================================
+# Page: Emissions Data
+#
+# Used as a parent for the emmissions data entries and to provide the data in
+# JSON format.
+#===============================================================================
+
+title:
+  en: Emissions Data
+  de: Emissionsdaten
+
+status:
+  draft:
+    label:
+      en: Draft
+      de: Entwurf
+  unlisted:
+    label:
+      en: Published
+      de: Veröffentlicht
+
+icon: table
+
+options:
+  changeSlug:
+    *: false
+  changeStatus:
+    *: false
+  changeTemplate:
+    *: false
+  changeTitle:
+    *: false
+  create:
+    *: false
+  delete:
+    *: false
+  duplicate:
+    *: false
+
+sections:
+  info:
+    type: fields
+    fields:
+      sitemapInfo:
+        type: info
+        label:
+          en: Emissions Data
+          de: Emmissionsdaten
+        text:
+          en: This page is used as a parent for the emmissions data entries and to provide the data in JSON format.
+          de: Diese Seite wird als Elternseite für die Emissionsdateneinträge verwendet und stellt die Daten im JSON-Format zur Verfügung.
+  subPages:
+    type: pages
+    label:
+      en: Emissions Data Entries
+      de: Emissionsdateneinträge
+    template: emissions-data-entry
+    create:
+      - emissions-data-entry
+    sortable: false
+    sortBy: title asc
+    search: true
