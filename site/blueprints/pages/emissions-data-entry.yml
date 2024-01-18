@@ -1,0 +1,59 @@
+#===============================================================================
+# Page: Emissions Data Entry
+#===============================================================================
+
+title:
+  en: Emissions Data Entry
+  de: Emissionsdateneintrag
+
+status:
+  draft:
+    label:
+      en: Draft
+      de: Entwurf
+  unlisted:
+    label:
+      en: Published
+      de: Veröffentlicht
+
+fields:
+  company:
+    type: text
+    label:
+      en: Company
+      de: Unternehmen
+    help:
+      en: Can only be edited in the English version of the entry.
+      de: Kann nur in der englischen Version des Eintrags bearbeitet werden.
+    required: true
+    translate: false
+    width: 1/3
+  country:
+    type: select
+    label:
+      en: Country
+      de: Land
+    help:
+      en: Can only be edited in the English version of the entry.
+      de: Kann nur in der englischen Version des Eintrags bearbeitet werden.
+    options: query
+    query:
+      fetch: site.getCountries
+      text: "{{ arrayItem.value }}"
+      value: "{{ arrayItem.key }}"
+    required: true
+    translate: false
+    width: 1/3
+  carbonEmissionPerYear:
+    type: number
+    label:
+      en: Carbon Emission per Year (in tons)
+      de: CO2-Emmision pro Jahr (in Tonnen)
+    help:
+      en: Can only be edited in the English version of the entry.
+      de: Kann nur in der englischen Version des Eintrags bearbeitet werden.
+    after: t
+    min: 0
+    required: true
+    translate: false
+    width: 1/3
