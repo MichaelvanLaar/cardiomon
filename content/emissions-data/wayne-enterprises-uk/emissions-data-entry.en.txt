@@ -1,0 +1,25 @@
+Title: Wayne Enterprises, UK
+
+----
+
+Company: Wayne Enterprises
+
+----
+
+Country: GB
+
+----
+
+Carbonemissionperyear: 31000000
+
+----
+
+Uuid: IcxCGRoVTUqAbWLt
+
+----
+
+Datecreatedepoch: 1705608678
+
+----
+
+Datemodifiedepoch: 1705608709

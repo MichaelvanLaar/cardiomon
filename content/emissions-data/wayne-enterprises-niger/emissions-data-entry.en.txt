@@ -1,0 +1,25 @@
+Title: Wayne Enterprises, Niger
+
+----
+
+Company: Wayne Enterprises
+
+----
+
+Country: NE
+
+----
+
+Carbonemissionperyear: 8000000
+
+----
+
+Uuid: N6vLdmXJRpkLU4ov
+
+----
+
+Datecreatedepoch: 1705608817
+
+----
+
+Datemodifiedepoch: 1705608840

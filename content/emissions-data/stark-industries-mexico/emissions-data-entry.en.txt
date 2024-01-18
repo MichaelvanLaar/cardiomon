@@ -1,0 +1,25 @@
+Title: Stark Industries, Mexico
+
+----
+
+Company: Stark Industries
+
+----
+
+Country: MX
+
+----
+
+Carbonemissionperyear: 60000000
+
+----
+
+Uuid: 8LCWivXtNN9NESM8
+
+----
+
+Datecreatedepoch: 1705609312
+
+----
+
+Datemodifiedepoch: 1705609327

@@ -1,0 +1,25 @@
+Title: Stark Industries, Mongolia
+
+----
+
+Company: Stark Industries
+
+----
+
+Country: MN
+
+----
+
+Carbonemissionperyear: 18000000
+
+----
+
+Uuid: rjDFo8AxE77um678
+
+----
+
+Datecreatedepoch: 1705609579
+
+----
+
+Datemodifiedepoch: 1705609593

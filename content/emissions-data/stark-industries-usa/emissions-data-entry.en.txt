@@ -1,0 +1,25 @@
+Title: Stark Industries, USA
+
+----
+
+Company: Stark Industries
+
+----
+
+Country: US
+
+----
+
+Carbonemissionperyear: 85000000
+
+----
+
+Uuid: nm3iKxmwzkdO8ayB
+
+----
+
+Datecreatedepoch: 1705609252
+
+----
+
+Datemodifiedepoch: 1705609274

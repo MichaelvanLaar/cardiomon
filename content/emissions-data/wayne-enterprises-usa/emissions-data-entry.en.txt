@@ -1,0 +1,25 @@
+Title: Wayne Enterprises, USA
+
+----
+
+Company: Wayne Enterprises
+
+----
+
+Country: US
+
+----
+
+Carbonemissionperyear: 95000000
+
+----
+
+Uuid: yn8l9k3R1RuclFWz
+
+----
+
+Datecreatedepoch: 1705534486
+
+----
+
+Datemodifiedepoch: 1705608503
