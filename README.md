@@ -144,6 +144,7 @@ Here's how to set up a brand color palette for the website and give editors acce
   - [Date Extended](https://github.com/Adspectus/k3-date-extended)
   - [Grid Block](https://github.com/youngcut/kirby-grid-block)
   - [Hashed Assets](https://github.com/johannschopplich/kirby-hashed-assets)
+  - [Kirby Countries](https://github.com/bvdputte/kirby-countries)
   - [Kirby Highlighter](https://github.com/johannschopplich/kirby-highlighter)
   - [Minify HTML](https://github.com/afbora/kirby-minify-html)
   - [Retour](https://github.com/distantnative/retour-for-kirby)
