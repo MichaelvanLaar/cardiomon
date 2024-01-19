@@ -9,6 +9,7 @@ label:
 empty:
   en: No data entries
   de: Keine Einträge
+parent: site.find("emissions-data")
 template: emissions-data-entry
 create:
   - emissions-data-entry
@@ -19,18 +20,27 @@ columns:
     label:
       en: Company
       de: Unternehmen
-    width: 1/3
+    width: 2/5
   country:
     label:
       en: Country
       de: Land
     type: html
-    value: "{{ page.panelHelperCountryName }}"
-    width: 1/3
+    value: "{{ page.countryName }}"
+    width: 2/5
   carbonEmissionPerYear:
     label:
       en: Carbon Emission per Year (in tons)
       de: CO2-Emmision pro Jahr (in Tonnen)
-    width: 1/3
-sortBy: company asc country asc
+    type: html
+    value: "<div style='text-align: right;'>{{ page.carbonEmissionPerYearFormatted }}</div>"
+    width: 2/5
+  edit:
+    label:
+      en: Edit Entry
+      de: Eintrag Bearbeiten
+    type: html
+    value: "{{ page.panelHelperEditLink }}"
+    width: 1/5
+sortBy: company asc page.countryName asc
 search: true
