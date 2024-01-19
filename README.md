@@ -10,6 +10,7 @@ The following must be installed on your machine:
 
 - **Everything listed in the PHP section of the [Kirby CMS Requirements](https://getkirby.com/docs/guide/quickstart#requirements)**  
   Please note that for development purposes, you do not require any of the web servers listed in the requirements. Instead, utilize PHP’s built-in server when developing. However, one of the listed “real” webservers is essential when deploying the website.
+- **The PHP extension `intl` enabled**
 - **On the production server: [ImageMagick](https://imagemagick.org/) in its latest version**  
   ImageMagick is a better choice for server-side image processing than the GD library. It is especially needed to create AVIF files. Therefore, in Kirby’s `config.php` ImageMagick is set up be used as thumbs driver – except in `localhost` environments (where GDLib is used because ImageMagick can cause problems on Windows machines).
   ImageMagick is the better choice for server-side image processing as opposed to GD Library. It is mainly necessary to generate AVIF files. Therefore it is set in the `config.php` of PHP that ImageMagick should be used - except in `localhost` environments (there GDLib is used, because otherwise there are problems on Windows machines).
