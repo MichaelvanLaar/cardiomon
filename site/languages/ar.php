@@ -16,6 +16,7 @@ return [
         "Country" => "دولة",
         "Disclaimer for footer" =>
             'هذا الموقع عبارة عن <a href="https://www.iu.de/en/bachelor/informatik/distance-learning/" target="_blank">دراسة حالة</a> لمقرر علوم الكمبيوتر «IPWA01-01» في <a href="https://www.iu.de/en/bachelor/informatik/distance-learning/" target="_blank">جامعة IU الدولية للعلوم التطبيقية</a>. المحتويات والبيانات وهمية.',
+        "Edit" => "تصحيح",
         "Label for language switch" => "العربية",
         "Language name for language switch" => "اللغة العربية",
         "Open menu" => "فتح القائمة",
