@@ -1,0 +1,25 @@
+Title: Umbrella Corporation, Myanmar
+
+----
+
+Company: Umbrella Corporation
+
+----
+
+Country: MM
+
+----
+
+Carbonemissionperyear: 7945043
+
+----
+
+Uuid: ps0B6pYKrQOVdD1G
+
+----
+
+Datecreatedepoch: 1705961713
+
+----
+
+Datemodifiedepoch: 1705961771

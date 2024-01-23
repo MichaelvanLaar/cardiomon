@@ -1,0 +1,25 @@
+Title: LexCorp, Uruguay
+
+----
+
+Company: LexCorp
+
+----
+
+Country: UY
+
+----
+
+Carbonemissionperyear: 13700500
+
+----
+
+Uuid: VR2Nie2DzxY56gBh
+
+----
+
+Datecreatedepoch: 1705965984
+
+----
+
+Datemodifiedepoch: 1705966022

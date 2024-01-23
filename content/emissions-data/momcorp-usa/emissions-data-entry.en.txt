@@ -1,0 +1,25 @@
+Title: MomCorp, USA
+
+----
+
+Company: MomCorp
+
+----
+
+Country: US
+
+----
+
+Carbonemissionperyear: 103967045
+
+----
+
+Uuid: z1QQsBt915yEMZYT
+
+----
+
+Datecreatedepoch: 1705962481
+
+----
+
+Datemodifiedepoch: 1705962549

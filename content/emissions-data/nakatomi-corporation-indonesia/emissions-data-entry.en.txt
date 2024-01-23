@@ -1,0 +1,25 @@
+Title: Nakatomi Corporation, Indonesia
+
+----
+
+Company: Nakatomi Corporation
+
+----
+
+Country: ID
+
+----
+
+Carbonemissionperyear: 34950477
+
+----
+
+Uuid: pmUfMAMmohWQlYqi
+
+----
+
+Datecreatedepoch: 1705963721
+
+----
+
+Datemodifiedepoch: 1705963833

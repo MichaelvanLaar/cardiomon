@@ -1,0 +1,25 @@
+Title: Oscorp, Canada
+
+----
+
+Company: Oscorp
+
+----
+
+Country: CA
+
+----
+
+Carbonemissionperyear: 67390480
+
+----
+
+Uuid: 254TQm1oPA3KSMNd
+
+----
+
+Datecreatedepoch: 1705964368
+
+----
+
+Datemodifiedepoch: 1705964407

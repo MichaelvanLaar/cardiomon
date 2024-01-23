@@ -1,0 +1,25 @@
+Title: LexCorp, Denmark
+
+----
+
+Company: LexCorp
+
+----
+
+Country: DK
+
+----
+
+Carbonemissionperyear: 22054438
+
+----
+
+Uuid: w9h0WlXQqwWDYu27
+
+----
+
+Datecreatedepoch: 1705965871
+
+----
+
+Datemodifiedepoch: 1705965919

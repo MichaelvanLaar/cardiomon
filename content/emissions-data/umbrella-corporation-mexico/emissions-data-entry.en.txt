@@ -1,0 +1,25 @@
+Title: Umbrella Corporation, Mexico
+
+----
+
+Company: Umbrella Corporation
+
+----
+
+Country: MX
+
+----
+
+Carbonemissionperyear: 118170400
+
+----
+
+Uuid: hKdrF8pXwtjIpAag
+
+----
+
+Datecreatedepoch: 1705961239
+
+----
+
+Datemodifiedepoch: 1705961470

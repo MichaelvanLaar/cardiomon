@@ -1,0 +1,25 @@
+Title: MomCorp, India
+
+----
+
+Company: MomCorp
+
+----
+
+Country: IN
+
+----
+
+Carbonemissionperyear: 73800400
+
+----
+
+Uuid: h43WvICsnccxqUwE
+
+----
+
+Datecreatedepoch: 1705962857
+
+----
+
+Datemodifiedepoch: 1705962886
