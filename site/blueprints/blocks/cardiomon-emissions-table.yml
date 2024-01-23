@@ -1,0 +1,17 @@
+#===============================================================================
+# Block: Emissions Table
+#===============================================================================
+
+name:
+  en: Emissions Table
+  de: Emissionstabelle
+icon: table
+fields:
+  countdownInfo:
+    type: info
+    label:
+      en: Emissions Table
+      de: Emissionstabelle
+    text:
+      en: This block displays a table of emissions that can be sorted and filtered. The emissions data is stored in the “Emissions Data” entries.
+      de: Dieser Block zeigt eine Tabelle von Emissionen an, die sortiert und gefiltert werden kann. Die Emissionsdaten werden in den „Emissionsdaten“-Einträgen gespeichert.
