@@ -220,6 +220,7 @@ return [
     ],
     "debug" => false,
     "distantnative.retour.logs" => false,
+    "editor" => "vscode",
     "languages" => true,
     "markdown" => [
         "extra" => true,
