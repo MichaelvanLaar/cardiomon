@@ -147,6 +147,7 @@ Here's how to set up a brand color palette for the website and give editors acce
   - [Hashed Assets](https://github.com/johannschopplich/kirby-hashed-assets)
   - [Kirby Countries](https://github.com/bvdputte/kirby-countries)
   - [Kirby Highlighter](https://github.com/johannschopplich/kirby-highlighter)
+  - [Kirby Language Selector](https://github.com/junohamburg/kirby-language-selector)
   - [Minify HTML](https://github.com/afbora/kirby-minify-html)
   - [Retour](https://github.com/distantnative/retour-for-kirby)
   - [Robots.txt](https://github.com/bnomei/kirby3-robots-txt)
