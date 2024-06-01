@@ -1,0 +1,25 @@
+Title: Umbrella Corporation, Germany
+
+----
+
+Company: Umbrella Corporation
+
+----
+
+Country: DE
+
+----
+
+Carbonemissionperyear: 17890600
+
+----
+
+Uuid: cG1VXANPWxNYtaDF
+
+----
+
+Datecreatedepoch: 1705961742
+
+----
+
+Datemodifiedepoch: 1705961763

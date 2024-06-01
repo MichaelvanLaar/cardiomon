@@ -1,0 +1,25 @@
+Title: Cyberdyne Systems, Canada
+
+----
+
+Company: Cyberdyne Systems
+
+----
+
+Country: CA
+
+----
+
+Carbonemissionperyear: 67584998
+
+----
+
+Uuid: 2lMrkz2wxyT283Sa
+
+----
+
+Datecreatedepoch: 1705961558
+
+----
+
+Datemodifiedepoch: 1705961637

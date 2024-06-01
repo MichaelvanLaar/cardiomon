@@ -1,0 +1,25 @@
+Title: Umbrella Corporation, USA
+
+----
+
+Company: Umbrella Corporation
+
+----
+
+Country: US
+
+----
+
+Carbonemissionperyear: 67009500
+
+----
+
+Uuid: sDWF6cJjztqB9PlA
+
+----
+
+Datecreatedepoch: 1705609702
+
+----
+
+Datemodifiedepoch: 1705961485

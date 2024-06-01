@@ -1,0 +1,25 @@
+Title: MomCorp, Chile
+
+----
+
+Company: MomCorp
+
+----
+
+Country: CL
+
+----
+
+Carbonemissionperyear: 27169500
+
+----
+
+Uuid: nOcMO9wcqz3xMz8j
+
+----
+
+Datecreatedepoch: 1705962733
+
+----
+
+Datemodifiedepoch: 1705962752

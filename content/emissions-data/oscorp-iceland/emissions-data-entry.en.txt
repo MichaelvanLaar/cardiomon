@@ -1,0 +1,25 @@
+Title: Oscorp, Iceland
+
+----
+
+Company: Oscorp
+
+----
+
+Country: IS
+
+----
+
+Carbonemissionperyear: 30484400
+
+----
+
+Uuid: Vey2Q6th7VW5XwR2
+
+----
+
+Datecreatedepoch: 1705964538
+
+----
+
+Datemodifiedepoch: 1705964699

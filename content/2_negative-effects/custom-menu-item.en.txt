@@ -1,0 +1,25 @@
+Title: Effects
+
+----
+
+Menuitemlink: #effects
+
+----
+
+Menuitemtarget: _self
+
+----
+
+Includeinmenus: main
+
+----
+
+Uuid: y5vc6isSWu8vui9W
+
+----
+
+Datecreatedepoch: 1704932880
+
+----
+
+Datemodifiedepoch: 1704934160

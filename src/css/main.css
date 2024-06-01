@@ -59,7 +59,7 @@
    */
 
   a {
-    @apply hover:brightness-125 hover:transition-all;
+    @apply hover:underline hover:transition-all;
   }
 }
 
@@ -230,4 +230,27 @@
 [data-page-builder-element-type="grid-row"].row-text-center > div > div > ul,
 [data-page-builder-element-type="grid-row"].row-text-center > div > div > ol {
   @apply text-center;
+}
+
+/**
+ * -----------------------------------------------------------------------------
+ * Site-specific classe for use in the pagebuilder field
+ * -----------------------------------------------------------------------------
+ */
+
+.header-main-stage h1 {
+  @apply text-lime-700 hyphens-manual sm:hyphens-none;
+  text-shadow:
+    0.1rem 0.1rem 0.1rem var(--tw-color-white),
+    -0.1rem 0.1rem 0.1rem var(--tw-color-white),
+    -0.1rem -0.1rem 0.1rem var(--tw-color-white),
+    0.1rem -0.1rem 0.1rem var(--tw-color-white),
+    0.25rem 0.25rem 0.25rem var(--tw-color-white),
+    -0.25rem 0.25rem 0.25rem var(--tw-color-white),
+    -0.25rem -0.25rem 0.25rem var(--tw-color-white),
+    0.25rem -0.25rem 0.25rem var(--tw-color-white),
+    0.5rem 0.5rem 1rem var(--tw-color-white),
+    -0.5rem 0.5rem 1rem var(--tw-color-white),
+    -0.5rem -0.5rem 1rem var(--tw-color-white),
+    0.5rem -0.5rem 1rem var(--tw-color-white);
 }

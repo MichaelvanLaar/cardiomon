@@ -1,0 +1,25 @@
+Title: Cyberdyne Systems, Botswana
+
+----
+
+Company: Cyberdyne Systems
+
+----
+
+Country: BW
+
+----
+
+Carbonemissionperyear: 12950000
+
+----
+
+Uuid: N2USW0CBMxGc2H68
+
+----
+
+Datecreatedepoch: 1705962095
+
+----
+
+Datemodifiedepoch: 1705962115

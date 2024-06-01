@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /**
- * Copyright (c) 2018-2023 Andreas Möller
+ * Copyright (c) 2018-2024 Andreas Möller
  *
  * For the full copyright and license information, please view
  * the LICENSE.md file that was distributed with this source code.
@@ -51,7 +51,7 @@ final class PackageHashNormalizer implements Normalizer
 
         foreach ($objectPropertiesThatShouldBeNormalized as $name => $value) {
             /** @var array<string, string> $packages */
-            $packages = (array) $decoded->{$name};
+            $packages = (array) $value;
 
             if ([] === $packages) {
                 continue;

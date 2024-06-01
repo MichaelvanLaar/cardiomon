@@ -1,0 +1,25 @@
+Title: Umbrella Corporation, Canada
+
+----
+
+Company: Umbrella Corporation
+
+----
+
+Country: CA
+
+----
+
+Carbonemissionperyear: 36750000
+
+----
+
+Uuid: rQldo6rRw8zCObWb
+
+----
+
+Datecreatedepoch: 1705961284
+
+----
+
+Datemodifiedepoch: 1705961312

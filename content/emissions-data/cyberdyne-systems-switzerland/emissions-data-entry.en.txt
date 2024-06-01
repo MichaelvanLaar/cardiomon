@@ -1,0 +1,25 @@
+Title: Cyberdyne Systems, Switzerland
+
+----
+
+Company: Cyberdyne Systems
+
+----
+
+Country: CH
+
+----
+
+Carbonemissionperyear: 42076200
+
+----
+
+Uuid: 0rRy3GxdKqrAmJHa
+
+----
+
+Datecreatedepoch: 1705961928
+
+----
+
+Datemodifiedepoch: 1705961953

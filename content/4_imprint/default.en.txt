@@ -1,0 +1,61 @@
+Title: Imprint
+
+----
+
+Pagebuilder: 
+
+----
+
+Seotitle: 
+
+----
+
+Appenddefaultdividertotitleelement: true
+
+----
+
+Appendsitetitletotitleelement: true
+
+----
+
+Seodescription: 
+
+----
+
+Seoindex: true
+
+----
+
+Socialsharetitle: 
+
+----
+
+Appenddefaultdividertosocialsharetitle: false
+
+----
+
+Appendsitetitletosocialsharetitle: false
+
+----
+
+Socialsharedescription: 
+
+----
+
+Socialshareimage: 
+
+----
+
+Twittercreatorhandle: 
+
+----
+
+Includeinmenus: footer
+
+----
+
+Uuid: RybCCe9aboGvL1tp
+
+----
+
+Datemodifiedepoch: 1704217367

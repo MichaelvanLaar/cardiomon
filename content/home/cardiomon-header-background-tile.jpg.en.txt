@@ -1,0 +1,5 @@
+Uuid: eid0ezjgT5z54ylC
+
+----
+
+Template: image-default

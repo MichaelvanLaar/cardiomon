@@ -52,74 +52,85 @@
     </script>
 
     <style>
-      /* Local webfont: nunito-sans-regular - latin */
+      /* Local webfont: readex-pro-200 - arabic_latin */
       @font-face {
         font-display: swap;
-        font-family: "Nunito Sans";
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 200;
+        src: url('/assets/fonts/readex-pro-v21-arabic_latin-200.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url('/assets/fonts/readex-pro-v21-arabic_latin-200.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      }
+
+      /* Local webfont: readex-pro-300 - arabic_latin */
+      @font-face {
+        font-display: swap;
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 300;
+        src: url('/assets/fonts/readex-pro-v21-arabic_latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url('/assets/fonts/readex-pro-v21-arabic_latin-300.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      }
+
+      /* Local webfont: readex-pro-regular - arabic_latin */
+      @font-face {
+        font-display: swap;
+        font-family: 'Readex Pro';
         font-style: normal;
         font-weight: 400;
-        src:
-          url("/assets/fonts/nunito-sans-v15-latin-regular.woff2") format("woff2"),
-          url("/assets/fonts/nunito-sans-v15-latin-regular.ttf") format("truetype");
+        src: url('/assets/fonts/readex-pro-v21-arabic_latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url('/assets/fonts/readex-pro-v21-arabic_latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
       }
 
-      /* Local webfont: nunito-sans-italic - latin */
+      /* Local webfont: readex-pro-500 - arabic_latin */
       @font-face {
         font-display: swap;
-        font-family: "Nunito Sans";
-        font-style: italic;
-        font-weight: 400;
-        src:
-          url("/assets/fonts/nunito-sans-v15-latin-italic.woff2") format("woff2"),
-          url("/assets/fonts/nunito-sans-v15-latin-italic.ttf") format("truetype");
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 500;
+        src: url('/assets/fonts/readex-pro-v21-arabic_latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url('/assets/fonts/readex-pro-v21-arabic_latin-500.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
       }
 
-      /* Local webfont: nunito-sans-700 - latin */
+      /* Local webfont: readex-pro-600 - arabic_latin */
       @font-face {
         font-display: swap;
-        font-family: "Nunito Sans";
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 600;
+        src: url('/assets/fonts/readex-pro-v21-arabic_latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url('/assets/fonts/readex-pro-v21-arabic_latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      }
+
+      /* Local webfont: readex-pro-700 - arabic_latin */
+      @font-face {
+        font-display: swap;
+        font-family: 'Readex Pro';
         font-style: normal;
         font-weight: 700;
-        src:
-          url("/assets/fonts/nunito-sans-v15-latin-700.woff2") format("woff2"),
-          url("/assets/fonts/nunito-sans-v15-latin-700.ttf") format("truetype");
-      }
-
-      /* Local webfont: nunito-sans-700italic - latin */
-      @font-face {
-        font-display: swap;
-        font-family: "Nunito Sans";
-        font-style: italic;
-        font-weight: 700;
-        src:
-          url("/assets/fonts/nunito-sans-v15-latin-700italic.woff2") format("woff2"),
-          url("/assets/fonts/nunito-sans-v15-latin-700italic.ttf") format("truetype");
+        src: url('/assets/fonts/readex-pro-v21-arabic_latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url('/assets/fonts/readex-pro-v21-arabic_latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
       }
 
       body {
         /* Used to trigger early font detection and download,
         see https://web.dev/articles/font-best-practices?hl=en#inline_font_declarations */
-        font-family: "Nunito Sans", sans-serif;
+        font-family: "Readex Pro", sans-serif;
 
         /* Set site header height */
-        --site-header-initial-height: 6rem;
+        --site-header-initial-height: 5rem;
         --site-header-scroll-height: 3rem;
         --site-header-height: var(--site-header-initial-height);
 
         /* Set site header vertical padding */
-        --site-header-initial-padding-y: 0.75rem;
-        --site-header-scroll-padding-y: 0.3125rem;
+        --site-header-initial-padding-y: 0.5rem;
+        --site-header-scroll-padding-y: 0.3rem;
         --site-header-padding-y: var(--site-header-initial-padding-y);
 
         /* Calculate site logo dimensions */
-        --site-logo-initial-height: calc(var(--site-header-initial-height) - (2 * var(--site-header-initial-padding-y)));
-        --site-logo-height: calc(var(--site-header-height) - (2 * var(--site-header-padding-y)));
+        --site-logo-initial-height: calc(var(--site-header-height) * 1.2);
+        --site-logo-height: calc(var(--site-header-height) * 1.2);
         --site-logo-aspect-ratio: <?= $siteLogoFile->dimensions()->ratio() ?>;
-
-        /* Calculate site logo container dimensions */
-        --site-logo-initial-container-height: calc(var(--site-logo-initial-height) + 2px);
-        --site-logo-container-height: calc(var(--site-logo-height) + 2px);
-        --site-logo-container-width: calc(var(--site-logo-height) * var(--site-logo-aspect-ratio));
 
         /* Calculate navigation toggle width  */
         --main-navigation-toggle-width: calc(var(--site-header-scroll-height) - (2 * var(--site-header-scroll-padding-y)) + 1.5rem);
@@ -178,29 +189,28 @@
     <?php endif; ?>
   </head>
 
-  <body class="flex min-h-screen flex-col bg-white dark:bg-neutral-950 dark:text-white print:block">
+  <body class="flex min-h-screen flex-col bg-white dark:bg-neutral-800 dark:text-white print:block">
 
     <!-- PAGE HEADER -->
     <!-- Row -->
     <header
       id="page-header"
-      class="z-30 h-[var(--site-header-height)] w-full bg-neutral-200 js:fixed dark:bg-neutral-600 print:h-[var(--site-header-initial-height)] print:bg-transparent print:js:static"
+      class="z-30 flex h-[var(--site-header-height)] w-full bg-lime-100 js:fixed dark:bg-lime-900 print:h-[var(--site-header-initial-height)] print:bg-transparent print:js:static"
       role="banner"
     >
       <!-- Inner row container -->
-      <div class="row-container-default flex justify-between py-[var(--site-header-padding-y)]">
+      <div class="row-container-default relative flex items-center justify-end pt-[calc(0.25_*_var(--site-header-height))]">
         <!-- Site logo -->
-        <div class="site-logo-container h-[var(--site-logo-container-height)] w-[var(--site-logo-container-width)] max-w-[10rem] print:h-[var(--site-logo-initial-container-height)]">
-          <a
-            href="<?= $site->url() ?>"
-            title="<?= $site->title() ?> → <?= $site->homePage()->title() ?>"
-            aria-label="<?= $site->title() ?> Logo"
-          >
-            <?= $siteLogoFile->extension() == "svg"
-              ? svg($siteLogoFile)
-              : $siteLogoFile ?>
-          </a>
-        </div>
+        <a
+          href="<?= $site->url() ?>"
+          title="<?= $site->title() ?> → <?= $site->homePage()->title() ?>"
+          aria-label="<?= $site->title() ?> Logo"
+          class="[&_svg]:hover:brightness-125 [&_svg]:hover:transition-all site-logo-container absolute start-medium top-0 -ms-[calc(0.0521_*_var(--site-header-height))] print:start-0 print:ms-0 lg:start-large"
+        >
+          <?= $siteLogoFile->extension() == "svg"
+            ? svg($siteLogoFile)
+            : $siteLogoFile ?>
+        </a>
 
         <?php snippet("base/main-menu", [
           "pageLanguageCode" => $pageLanguageCode,

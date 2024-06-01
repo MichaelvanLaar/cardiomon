@@ -1,0 +1,25 @@
+Title: Cyberdyne Systems, France
+
+----
+
+Company: Cyberdyne Systems
+
+----
+
+Country: FR
+
+----
+
+Carbonemissionperyear: 39590067
+
+----
+
+Uuid: mHEXrHc8qNZrUYtB
+
+----
+
+Datecreatedepoch: 1705961660
+
+----
+
+Datemodifiedepoch: 1705961687

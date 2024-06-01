@@ -1,0 +1,25 @@
+Title: Emissionen
+
+----
+
+Slug: emissionstabelle
+
+----
+
+Menuitemlink: #emissionen
+
+----
+
+Menuitemtarget: _self
+
+----
+
+Includeinmenus: main
+
+----
+
+Menuitemurl: https://michaelvanlaar.com/
+
+----
+
+Datemodifiedepoch: 1705016950

@@ -1,0 +1,25 @@
+Title: Take Action
+
+----
+
+Menuitemlink: #action
+
+----
+
+Menuitemtarget: _self
+
+----
+
+Includeinmenus: main
+
+----
+
+Uuid: 7lSATNGuKk5XiJet
+
+----
+
+Datecreatedepoch: 1705015052
+
+----
+
+Datemodifiedepoch: 1705015067

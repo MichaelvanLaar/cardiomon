@@ -1,8 +1,8 @@
-Title: Site Title
+Title: CarDioMon
 
 ----
 
-Sitelogo: - file://0sLoU6R7JGqIGl3I
+Sitelogo: - file://PEuHwzfJOSGfV9Qx
 
 ----
 

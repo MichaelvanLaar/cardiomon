@@ -1,0 +1,25 @@
+Title: تأثيرات
+
+----
+
+Slug: altaathirat-alsalbia
+
+----
+
+Menuitemlink: #tathirat
+
+----
+
+Menuitemtarget: _self
+
+----
+
+Includeinmenus: main
+
+----
+
+Datecreatedepoch: 1704932880
+
+----
+
+Datemodifiedepoch: 1704934281

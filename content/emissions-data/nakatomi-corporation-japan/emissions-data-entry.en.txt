@@ -1,0 +1,25 @@
+Title: Nakatomi Corporation, Japan
+
+----
+
+Company: Nakatomi Corporation
+
+----
+
+Country: JP
+
+----
+
+Carbonemissionperyear: 98600064
+
+----
+
+Uuid: wIxNAnoS2Bn8favt
+
+----
+
+Datecreatedepoch: 1705963452
+
+----
+
+Datemodifiedepoch: 1705963533

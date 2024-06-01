@@ -1,0 +1,13 @@
+Title: بيانات الانبعاثات
+
+----
+
+Slug: bayanat-aliainbieathat
+
+----
+
+Datecreatedepoch: 1705529991
+
+----
+
+Datemodifiedepoch: 1705530097

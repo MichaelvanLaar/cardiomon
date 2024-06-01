@@ -1,0 +1,5 @@
+Uuid: jds625IJIP45Xdua
+
+----
+
+Template: blocks/image

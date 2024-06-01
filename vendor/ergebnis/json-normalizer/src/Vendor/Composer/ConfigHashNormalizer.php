@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /**
- * Copyright (c) 2018-2023 Andreas Möller
+ * Copyright (c) 2018-2024 Andreas Möller
  *
  * For the full copyright and license information, please view
  * the LICENSE.md file that was distributed with this source code.
@@ -29,6 +29,12 @@ final class ConfigHashNormalizer implements Normalizer
          */
         'preferred-install',
     ];
+    private WildcardSorter $wildcardSorter;
+
+    public function __construct()
+    {
+        $this->wildcardSorter = new WildcardSorter();
+    }
 
     public function normalize(Json $json): Json
     {
@@ -56,7 +62,7 @@ final class ConfigHashNormalizer implements Normalizer
         \ksort($config);
 
         foreach (self::PROPERTIES_WITH_WILDCARDS as $property) {
-            self::sortPropertyWithWildcard(
+            $this->wildcardSorter->sortPropertyWithWildcard(
                 $config,
                 $property,
             );
@@ -71,60 +77,5 @@ final class ConfigHashNormalizer implements Normalizer
         );
 
         return Json::fromString($encoded);
-    }
-
-    /**
-     * When sorting with wildcards, special care needs to be taken.
-     *
-     * @see https://github.com/ergebnis/json-normalizer/pull/775#issuecomment-1346095415
-     * @see https://github.com/composer/composer/blob/2.6.5/src/Composer/Plugin/PluginManager.php#L85-L86
-     * @see https://github.com/composer/composer/blob/2.6.5/src/Composer/Plugin/PluginManager.php#L626-L646
-     * @see https://github.com/composer/composer/blob/2.6.5/src/Composer/Package/BasePackage.php#L252-L257
-     * @see https://github.com/composer/composer/blob/2.6.5/src/Composer/Plugin/PluginManager.php#L687-L691
-     */
-    private static function sortPropertyWithWildcard(
-        array &$config,
-        string $property,
-    ): void {
-        if (!\array_key_exists($property, $config)) {
-            return;
-        }
-
-        if (!\is_object($config[$property])) {
-            return;
-        }
-
-        $value = (array) $config[$property];
-
-        if ([] === $value) {
-            return;
-        }
-
-        foreach (\array_keys($value) as $package) {
-            /** @var string $package */
-            if (\str_contains(\rtrim($package, '*'), '*')) {
-                // We cannot reliably sort allow-plugins when there's a wildcard other than at the end of the string.
-                return;
-            }
-        }
-
-        $normalize = static function (string $package): string {
-            // Any key with an asterisk needs to be the last entry in its group
-            return \str_replace(
-                '*',
-                '~',
-                $package,
-            );
-        };
-
-        /** @var array<string, mixed> $value */
-        \uksort($value, static function (string $a, string $b) use ($normalize): int {
-            return \strcmp(
-                $normalize($a),
-                $normalize($b),
-            );
-        });
-
-        $config[$property] = $value;
     }
 }

@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /**
- * Copyright (c) 2018-2023 Andreas Möller
+ * Copyright (c) 2018-2024 Andreas Möller
  *
  * For the full copyright and license information, please view
  * the LICENSE.md file that was distributed with this source code.
@@ -22,7 +22,7 @@ use JsonSchema\SchemaStorage;
 
 final class ComposerJsonNormalizer implements Normalizer\Normalizer
 {
-    private readonly Normalizer\Normalizer $normalizer;
+    private Normalizer\Normalizer $normalizer;
 
     /**
      * @throws Normalizer\Exception\DependencyMissing
@@ -93,6 +93,7 @@ final class ComposerJsonNormalizer implements Normalizer\Normalizer
             new BinNormalizer(),
             new ConfigHashNormalizer(),
             new PackageHashNormalizer(),
+            new RepositoriesHashNormalizer(),
             new VersionConstraintNormalizer(new Semver\VersionParser()),
             new Normalizer\WithFinalNewLineNormalizer(),
         );
